@@ -1,0 +1,18 @@
+<template format="4"
+        revision="1"
+        name="Create NetWork Structure with coroutines"
+        description="Creates project NetWork structure using coroutines">
+
+    <category value="Activity"/>
+
+
+    <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default="com.mycompany.myapp" />
+
+    <execute file="recipe.xml.ftl" />
+
+</template>
